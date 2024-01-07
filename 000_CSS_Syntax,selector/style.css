@@ -1,0 +1,39 @@
+/* h1 = selector
+color = property
+red = value */
+ 
+/*   * = univarsal selector */
+
+*{
+    margin: 2px;
+}
+h1{
+    /* decration */
+    color: red;
+    font-size: 50px;
+}
+div{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: yellowgreen;
+}
+p{
+    font-size: 12px;
+
+}
+div p{
+    color: white;
+}
+.text_bk{
+    color: red;
+    text-align: center;
+    background-color: aqua;
+}
+.first_div p {
+  color: black;
+}
+/* grouping */
+#big_div, #big_div_2{
+    width: 300px;
+}
