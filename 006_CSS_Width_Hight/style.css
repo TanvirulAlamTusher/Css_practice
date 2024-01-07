@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    background: #6c5ce7;
+    color: rgb(6, 236, 75);
+    /* width: 1000px; bad practice */
+
+    /* fixed width */
+     /* width: 200px;  */
+
+     /* fluid width */
+     /* width: 100%; */
+     width: 92%;
+     margin: 20px auto;
+     padding: 2px;
+     /* max-width: 1140px;
+     min-width: 600px; */
+      
+     /* fixed */
+     /* height: 200px; */
+      
+    /* fluid  */
+    height: 100%;
+    max-height: 250px;
+    /* height: inherit; */
+    /* height: initial; */
+
+
+}
