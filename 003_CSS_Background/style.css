@@ -1,0 +1,20 @@
+body{
+    background: url(image/bg.jpeg);
+    background-attachment: fixed;
+}
+div{
+    background-color: rgba(74, 221, 221,0.7);
+    background-image: url(image/water.jpg); 
+    background-size: 250px 150px;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+    /* background-position: top center; */
+    /* background-position: right 25px; */
+    /* background-position: 10px 10px; */
+    background-position: right;
+
+    /* Shorthand */
+    background: #74b9ff url(image/water.jpg) no-repeat center;
+
+}
