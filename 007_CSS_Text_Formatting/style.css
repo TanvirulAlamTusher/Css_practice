@@ -1,0 +1,53 @@
+h1{
+    color: yellowgreen;
+    /* text-align: center; */
+    text-align: right;
+    /* text-transform: capitalize; */
+    text-transform: uppercase;
+    letter-spacing: 10px
+}
+p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.p_one{
+    text-align-last: center;
+}
+/* text align */
+.p_two{
+    margin-top: 30px;
+    text-align: right;
+    /* white-space: nowrap; */
+    white-space: break-space;
+    word-spacing: 10px;
+    text-shadow: 2px 3px 5px red;
+   
+   
+}
+/* Direction */
+.p_three{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+
+}
+.baseline{
+    vertical-align: baseline;
+    /* vertical-align: text-bottom; */
+    vertical-align: text-top;
+}
+.text_top{
+    vertical-align: text-top;
+}
+.text_bottom{
+    vertical-align: text-bottom;
+}
+a{
+    /* text-decoration: none; */
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: overline underline;
+}
+.text_indent{
+    text-indent: 50px;
+}
