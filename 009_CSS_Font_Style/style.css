@@ -1,44 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap'); */
-
-h1{ 
-    font-family: serif;
-    font-family: sans-serif;
-    font-family: monospace; 
-    font-family: cursive; 
-    font-family: fantasy;
-
-    /* Custom font */
-    font-family: 'Roboto';
-
-    /* Serif font */
-    font-family: 'Times New Roman';
-    font-family: 'Georgia';
-
-     /* Sans_Serif font */
-     font-family: 'Arial';
-     font-family: 'Verdana';
-     
-     /* Monospace font */
-     font-family: 'Courier New';
-
-      /* fantasy font */
-      font-family: 'papyrus';
-      
-      /* cursive font */
-      font-family: 'Brush Script MT', cursive;
-
-}
-h2{ 
-    font-family: 'Poppins', sans-serif;
-    font-weight: 100;
-    font-variant: small-caps;
-   
-    /* font-size: 65px; */
-    /* 1em = 16px */
-
-    /* font-size: 2em; */
-
-   
-
-    /* font-size: 100%; */
+i{
+    background: tomato;
+    color: white;
+    padding: 4px;
+    font-size: 50px;
 }
