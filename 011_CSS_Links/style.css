@@ -1,0 +1,39 @@
+a{
+    color: black;
+    text-decoration: none;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+
+}
+a:visited{
+    color: rgb(0, 17, 255);
+}
+a:hover{
+    color: aquamarine;
+}
+a:active{
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
+}
+a:focus{
+    color: rgb(255, 145, 0);
+    font-size: 20px;
+    background: black;
+    padding: 10px;
+}
+a.btn{
+    text-decoration: none;
+    background: red;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    font-family: sans-serif;
+    border: 2px solid red;
+    border-radius: 35px;
+}
+a.btn:hover{
+    background: rgba(255, 255, 0, 0.2);
+    color: black;
+}
