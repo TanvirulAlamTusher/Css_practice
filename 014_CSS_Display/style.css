@@ -1,0 +1,11 @@
+h1,span{
+    background: tomato;
+}
+h4{
+    background: tomato;
+    display: inline-block;
+}
+a{
+    background: tomato;
+    display: block;
+}
