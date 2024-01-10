@@ -1,0 +1,25 @@
+p{
+    color: blueviolet;
+}
+div p{
+    font-weight: 800;
+    color: blue;
+}
+/* child selector */
+div >p{
+    color: tomato;
+}
+/* div/section er pore sodo ekta p select kore evabe */
+div + p{
+    color: green;
+}
+section + p{
+    color: green;
+}
+a{
+    display: block;
+}
+/* general sibling selector */
+div ~ a{
+    color: purple;
+}
