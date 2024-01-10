@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+}
+div{
+    background: aqua;
+    width: 400px;
+    height: 400px;
+    margin: 0;
+
+}
+.main{
+    position: relative;
+    /* position:static rakhle "top left bottom,right" kaj korbe nah */
+    top: 40px; 
+    left: 50px;
+
+}
+.sec{
+    background: blueviolet;
+    width: 100px;
+    height: 100px;
+    right: 10px;
+    top: 10px;
+    position: fixed;
+   
+}
+/* .child{
+    background: plum;
+    width: 50px;
+    height: 50px;
+    left: auto;
+     right: 0; 
+    left: 0;
+    bottom: 0;
+    position: absolute;
+} */
+
+/* center div using position */
+.child{
+    background: plum;
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    margin-left: -50px;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+  /* note: child div a zodi position absolate use korte hoy tahole 
+  parent div a position relative korte hobe, na hole kaj korbe nah */
+}
+.stk{
+    background: gold;
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    /* top:0; */
+    bottom:0;
+    left: 0;
+   
+}
