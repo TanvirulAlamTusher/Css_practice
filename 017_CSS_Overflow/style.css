@@ -1,0 +1,12 @@
+div{
+    background: #130f40;
+    color: rgb(28, 201, 5);
+    padding: 20px 5%;
+    width: 90%;
+    height: 200px;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+    /* overflow-y: hidden; */
+    /* overflow-x: scroll; */
+}
