@@ -1,0 +1,46 @@
+a:hover{
+    color: red;
+}
+a:visited{
+    color: rgb(140, 0, 255);
+}
+/* li:first-child{
+    color:aqua;
+}
+li:last-child{
+    color:aqua;
+}
+li:nth-child(n){
+    color: green;
+} */
+/* li:nth-child(2n + 1){
+    color: green;
+} */
+li:nth-child(2n + 2){
+    color: green;
+}
+
+body{
+    background-color: bisque;
+}
+body::before{
+    content: 'Element';
+    background-color: aqua;
+}
+/* body::after{
+    content: 'Element';
+    background-color: aqua;
+} */
+#p::first-line{
+    color: rgb(19, 160, 0);
+}
+#p::first-letter{
+   font-size: 50px;
+}
+#p::first-letter{
+    font-size: 50px;
+ }
+ #p::selection{
+   background: tomato;
+   color: white;
+ }
